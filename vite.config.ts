@@ -13,7 +13,6 @@ export default defineConfig({
     },
   },
   plugins: [vue()],
-  base: '/cliftoncobblers/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
